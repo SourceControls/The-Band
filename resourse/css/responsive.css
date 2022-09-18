@@ -1,0 +1,67 @@
+/* PC */
+@media screen and (min-width: 1024px) {
+  .mobile {
+    color: blue;
+  }
+  .menu-button {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .contact-form {
+    padding-right: 32px;
+  }
+  .contact-inf {
+    padding-left: 32px;
+  }
+  .menu-button {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 740px) {
+  .col {
+    width: 100% !important;
+    margin-top: 16px;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #nav li {
+    display: block;
+  }
+  #nav li a {
+    width: 100%;
+  }
+  .contact-form {
+    padding-right: 12px !important;
+  }
+  .search-button {
+    display: none;
+  }
+  #content .member-img {
+    width: 70%;
+  }
+
+  #nav li:hover .subnav {
+    display: block;
+    position: relative;
+  }
+  .subnav li {
+    background: black;
+    padding: 8px 32px;
+  }
+  .subnav li a {
+    color: white !important;
+  }
+  .contact-submit-btn {
+    width: 100%;
+  }
+  .buyticket-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
